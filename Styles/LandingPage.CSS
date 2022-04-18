@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    font-size: 16px;
+}
+
+body { 
+    height: auto;
+}
+html {
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+}
+.navBar {
+    width: 100%;
+    height: 10%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("../Assets/navbg.jpg")
+}
+
+.nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-evenly;
+}
+
+.catalogLink {
+    text-decoration:none;
+    color:white;
+    margin: 1rem;
+}
+
+.logo {
+    width: 25%;
+    height: 100%;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.imageBarLeft, .imageBarRight {
+    width: 20%;
+}
+
+.image{
+    height: 18%;
+    width: 100%;
+}
+
+.story {
+    width: 75%;
+    margin: 0.5rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .imageBarLeft, .imageBarRight {
+        display: none;
+    }
+}
+
+@media screen and (min-height:300px) {
+    .main {
+        height: 110vh;
+        width: 100%
+    }
+}
