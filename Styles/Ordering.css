@@ -115,16 +115,22 @@ input, select, textarea {
     padding: 1rem;
 }
 
-@media screen and (min-width: 300px) and (max-width: 400px) {
+@media screen and (min-width: 300px) and (max-width: 600px) {
 
     .imageBarLeft,
     .imageBarRight {
         display: none;
     }
-        .orderForm {
+    .orderForm {
             width: 100%;
             border: none;
         }
+    .options img {
+                height: 50px;
+                width: 50px;
+                margin: 5px;
+                border: 1px solid white;
+            }
 
 }
 
@@ -136,5 +142,12 @@ input, select, textarea {
     .orderForm {
         width: 100%;
         border: none;
+    }
+
+    .options img {
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+        border: 1px solid white;
     }
 }
