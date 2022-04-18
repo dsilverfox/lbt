@@ -20,11 +20,11 @@ html {
 .navBar {
     width: 100%;
     height: 10%;
-    background-color:black;
+    background-color:silver;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url("../Assets/navbg.jpg")
+    /* background-image: url("../Assets/navbg.jpg") */
 }
 
 .nav {
