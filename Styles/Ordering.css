@@ -92,6 +92,12 @@ h1 {
     flex-wrap: wrap;
 }
 
+.labels {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .orderForm {
     width:50%;
     margin: auto;
