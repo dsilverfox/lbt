@@ -68,7 +68,7 @@ h1 {
 .options img {
     height: 100px;
     width: 100px;
-    margin: 5px;
+    margin:20px;
     border: 1px solid white;
 }
 
@@ -87,6 +87,11 @@ h1 {
     flex-wrap: wrap;
 }
 
+.themes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .orderForm {
     width:50%;
     margin: auto;
@@ -94,6 +99,12 @@ h1 {
     font-weight: bold;
     border: 1px solid white;
     padding: 1rem;
+}
+
+.logothumbnail {
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
 }
 
 form {
@@ -115,7 +126,11 @@ input, select, textarea {
     padding: 1rem;
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
+.shipPay {
+    text-align: center;
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
 
     .imageBarLeft,
     .imageBarRight {
