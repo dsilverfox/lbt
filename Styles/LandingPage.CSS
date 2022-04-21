@@ -35,16 +35,27 @@ html {
 
 .catalogLink {
     text-decoration:none;
-    color:white;
+    color:silver;
     margin: 1rem;
 }
 
 .logo {
     width: 25%;
     height: 100%;
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 3px 3px 3px silver;
 }
 
+.contact {
+    color: silver;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    background-image: url(../Assets/navbg.jpg)
+}
+
+.contact a {
+    color: silver;
+}
 .main {
     display: flex;
     width: 100%;
