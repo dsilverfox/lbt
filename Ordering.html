@@ -40,6 +40,10 @@
                     <img class="image" src="./Assets/star5.jpg" />
                     <figcaption>Star 5</figcaption>
                 </figure>
+                <figure>
+                    <img class="image" src="./Assets/star6.png" />
+                    <figcaption>Star 6</figcaption>
+                </figure>
             </section>
             <p><strong>Stripes</strong></p>
             <section class="stripes">
@@ -183,18 +187,25 @@
                     <figcaption>Theme 5</figcaption>
                 </figure>
                 <figure>
+                    <img class="theme" src="./Assets/themes6.png" />
+                    <figcaption>Theme 6</figcaption>
             </section>
             <!-- <p><strong>Sizes</strong></p>
             <section class="sizes">
             </section> -->
         </section>
         <section class="orderForm">
-                            <div class="shipPay">
-                                <p>Shipping is Available!</p>
-                                <p>Payments are accepted by Credit or Debit card using Square <img class="logothumb" src="./Assets/Logos/SquaeLogo.jpg" alt= "Square" style="height: 25px; width: 25px"/>.</p>
-                                <p>I also accept: <img class="logothumb" src="./Assets/Logos/VenmoLogo.png" alt = "Venmo" style="height: 25px; width: 25px"/>, <img class="logothumb" src="./Assets/Logos/PayPalLogo.jpg" alt = "PayPal" style="height: 25px; width: 25px"/>, and <img class="logothumb" src="./Assets/Logos/CashAppLogo.png" alt="CashApp" style="height: 25px; width: 25px"/> for your convenience.</p>
-                                <p>What are we building today?</p>
-                            </div>
+            <div class="shipPay">
+                <p>Shipping is Available!</p>
+                <p>Payments are accepted by Credit or Debit card using Square <img class="logothumb"
+                        src="./Assets/Logos/SquaeLogo.jpg" alt="Square" style="height: 25px; width: 25px" />.</p>
+                <p>I also accept: <img class="logothumb" src="./Assets/Logos/VenmoLogo.png" alt="Venmo"
+                        style="height: 25px; width: 25px" />, <img class="logothumb" src="./Assets/Logos/PayPalLogo.jpg"
+                        alt="PayPal" style="height: 25px; width: 25px" />, and <img class="logothumb"
+                        src="./Assets/Logos/CashAppLogo.png" alt="CashApp" style="height: 25px; width: 25px" /> for your
+                    convenience.</p>
+                <p>What are we building today?</p>
+            </div>
             <form action="https://formspree.io/f/xwkyryzv" method="POST">
                 <p>
                     <label>Your email:</label>
@@ -212,6 +223,7 @@
                         <option value="Star3">Star 3</option>
                         <option value="Star4">Star 4</option>
                         <option value="Star5">Star 5</option>
+                        <option value="Star6">Star 6</option>
                     </select>
 
                 </p>
@@ -264,6 +276,12 @@
 
                 </p>
                 <p>
+                    <label>Themes:</label>
+                    <select name="theme" id="theme">
+                        
+                    </select>
+                </p>
+                <p>
                     <label>Size:</label>
                     <select name="size" id="size">
                         <option value="custom">Custom</option>
@@ -278,7 +296,7 @@
                     <label>Your message:</label>
                     <textarea name="message" placeholder="Any customization not covered above will go here."></textarea>
                 </p>
-                <br/>
+                <br />
                 <div class="button">
                     <div class="buttonRow">
                         <button type="submit" class="btn-primary">Send</button>

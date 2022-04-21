@@ -9,8 +9,8 @@
 
 body {
     height: auto;
-    background-image: url('../Assets/Orderbg.jpg');
-        background-size: cover;
+    background-color: black;
+    color: white;
 }
 
 html {
@@ -66,8 +66,8 @@ h1 {
 }
 
 .options img {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 400px;
     margin:20px;
     border: 1px solid silver;
 }
