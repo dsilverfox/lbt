@@ -20,7 +20,7 @@ html {
 .navBar {
     width: 100%;
     height: 10%;
-    background-color:silver;
+    background-color:black;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -35,7 +35,7 @@ html {
 
 .catalogLink {
     text-decoration:none;
-    color:silver;
+    color:white;
     margin: 1rem;
 }
 
@@ -46,7 +46,7 @@ html {
 }
 
 .contact {
-    color: silver;
+    color: white;
     margin: auto;
     text-align: center;
     width: 100%;
@@ -54,7 +54,7 @@ html {
 }
 
 .contact a {
-    color: silver;
+    color: white;
 }
 .main {
     display: flex;
@@ -76,7 +76,7 @@ html {
     margin: 0.5rem;
 }
 
-@media screen and (min-width: 300px) and (max-width: 400px) {
+@media screen and (min-width: 300px) and (max-width: 800px) {
     .imageBarLeft, .imageBarRight {
         display: none;
     }

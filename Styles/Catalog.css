@@ -10,7 +10,7 @@
 body {
     height: auto;
     background-color: black;
-    color: silver;
+    color: white;
 }
 
 html {
@@ -39,7 +39,7 @@ html {
 
 .catalogLink {
     text-decoration: none;
-    color: silver;
+    color: white;
     margin: 1rem;
 }
 
@@ -56,7 +56,7 @@ html {
 }
 
 .underconstruction {
-    color: silver;
+    color: white;
     margin: 0.5rem;
 }
 
