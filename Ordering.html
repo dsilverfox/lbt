@@ -197,6 +197,14 @@
                     <img class="theme" src="./Assets/themes7.png" />
                     <figcaption>Second Amendment American</figcaption>
                 </figure>
+                <figure>
+                    <img class="theme" src="./Assets/catalog7.png" />
+                    <figcaption>Fire</figcaption>
+                </figure>
+                <figure>
+                    <img class="theme" src="./Assets/catalog10.png" />
+                    <figcaption>Police</figcaption>
+                </figure>
             </section>
             <!-- <p><strong>Sizes</strong></p>
             <section class="sizes">
@@ -205,13 +213,15 @@
         <section class="orderForm">
             <div class="shipPay">
                 <p>Shipping is Available!</p>
-                <p>Payments are accepted by Credit or Debit card using Square <img class="logothumb"
-                        src="./Assets/Logos/SquaeLogo.jpg" alt="Square" style="height: 25px; width: 25px" />.</p>
-                <p>I also accept: <img class="logothumb" src="./Assets/Logos/VenmoLogo.png" alt="Venmo"
-                        style="height: 25px; width: 25px" />, <img class="logothumb" src="./Assets/Logos/PayPalLogo.jpg"
-                        alt="PayPal" style="height: 25px; width: 25px" />, and <img class="logothumb"
-                        src="./Assets/Logos/CashAppLogo.png" alt="CashApp" style="height: 25px; width: 25px" /> for your
-                    convenience.</p>
+                <p>Payments Accepted:</p>
+                <p>
+                        <img class="logothumb"
+                        src="./Assets/Logos/SquaeLogo.jpg" alt="Square" style="height: 25px; width: 25px" />
+                        <img class="logothumb" src="./Assets/Logos/VenmoLogo.png" alt="Venmo"
+                        style="height: 25px; width: 25px" /> <img class="logothumb" src="./Assets/Logos/PayPalLogo.jpg"
+                        alt="PayPal" style="height: 25px; width: 25px" /> <img class="logothumb"
+                        src="./Assets/Logos/CashAppLogo.png" alt="CashApp" style="height: 25px; width: 25px" /></p>
+
                 <p>What are we building today?</p>
             </div>
             <form action="https://formspree.io/f/xwkyryzv" method="POST">
@@ -225,7 +235,6 @@
                         Stars: </label>
                     <select name="stars" id="stars">
                         <option value="Custom">Custom</option>
-                        <option value="No Stars">No stars</option>
                         <option value="Star1">Gadsen</option>
                         <option value="Star2">Betsy Ross</option>
                         <option value="Star3">3%</option>
@@ -239,7 +248,6 @@
                     <label> Stripes: </label>
                     <select name="stripes" id="stripes">
                         <option value="Custom">Custom</option>
-                        <option value="No Stripes">No Stripes</option>
                         <option value="Stripes1">Red</option>
                         <option value="Stripes2">Merlot</option>
                         <option value="Stripes3">"Subdue" Black</option>
@@ -276,6 +284,7 @@
                 <p>
                     <label>Themes:</label>
                     <select name="theme" id="theme">
+                        <option value="themes">No Theme</option>
                         <option value="themes1">We the People</option>
                         <option value="themes2">Navy</option>
                         <option value="themes3">Marines</option>
@@ -283,16 +292,19 @@
                         <option value="themes5">Air Force</option>
                         <option value="themes6">Five Services</option>
                         <option value="themes7">Second Amendment American</option>
+                        <option value="themes8">Fire</option>
+                        <option value="themes9">Police</option>
                     </select>
                 </p>
                 <p>
                     <label>Size:</label>
                     <select name="size" id="size">
                         <option value="custom">Custom</option>
-                        <option value="small">Small</option>
-                        <option value="medium">Medium</option>
-                        <option value="large">Large</option>
-                        <option value="extra">Extra Large</option>
+                        <option value="extrasmall">XS: 20"W x 10"H - $35</option>
+                        <option value="small">S: 24"W x 14"H - $50</option>
+                        <option value="medium">M: 36"W x 17"H - $70</option>
+                        <option value="large">L: 48"W x 24"H - $100</option>
+                        <option value="extralarge">XL: 60"W x 30"H - $150</option>
                     </select>
 
                 </p>
