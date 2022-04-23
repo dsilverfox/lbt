@@ -168,7 +168,7 @@ input, select, textarea {
     /* Remove borders */
     outline: none;
     /* Remove outline */
-    background-color: red;
+    background-color: #BA0C30ff;
     /* Set a background color */
     color: white;
     /* Text color */
@@ -183,6 +183,7 @@ input, select, textarea {
 }
 
 #myBtn:hover {
-    background-color: #555;
+    background-color: #BBBBBBff;
+    color: black;
     /* Add a dark-grey background on hover */
 }
