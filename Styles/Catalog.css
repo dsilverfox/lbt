@@ -73,8 +73,11 @@ p {
 }
 .image {
     height: 100%;
-    width: 100%;
-    margin: 3%;
+    width: 95%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
