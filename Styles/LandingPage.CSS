@@ -75,7 +75,11 @@ html {
 
 .story {
     width: 75%;
-    margin: 0.5rem;
+    margin: 1rem;
+}
+
+.story h1, h3 {
+    text-align: center;
 }
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
