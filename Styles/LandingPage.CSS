@@ -73,6 +73,19 @@ html {
     width: 100%;
 }
 
+.inMemoriam{
+    display: flex;
+}
+.imagedad{
+    height: 100%;
+    width: 100%;
+}
+.memorial{
+    width: 50%;
+}
+.heart{
+    width: 50%;
+}
 .story {
     width: 75%;
     margin: 1rem;
