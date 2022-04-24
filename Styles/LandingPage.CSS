@@ -99,6 +99,11 @@ html {
     .imageBarLeft, .imageBarRight {
         display: none;
     }
+
+    .imagedad {
+        height: 50%;
+        width: 50%;
+    }
 }
 
 @media screen and (min-height:300px) {
