@@ -104,6 +104,10 @@ html {
         height: 70%;
         width: 90%;
     }
+    .calendar {
+        height: 300px;
+        width: 400px;
+    }
 }
 
 @media screen and (min-height:300px) {
