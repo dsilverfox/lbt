@@ -69,7 +69,15 @@ h1 {
     margin:20px;
     border: 1px solid silver;
 }
+.sizes {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.sizes p {
+    margin: 1rem;
+}
 .stars {
     display: flex;
     flex-wrap: wrap;
