@@ -157,6 +157,9 @@ input, select, textarea {
     body {
         font-size: 10px;
     }
+    .sizes{
+        display: block;
+    }
 }
 
 /* Scroll to Top Button */
