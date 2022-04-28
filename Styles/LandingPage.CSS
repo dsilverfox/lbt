@@ -78,6 +78,11 @@ html {
     width: 100%;
 }
 
+iframe {
+    height: 400px;
+    width: 600px;
+}
+
 .inMemoriam{
     display: flex;
 }
@@ -109,6 +114,11 @@ html {
         height: 70%;
         width: 90%;
     }
+
+    iframe {
+        height: 50%;
+        width: 50%;
+    }
 }
 
 @media screen and (min-height:300px) {
@@ -116,6 +126,7 @@ html {
         height: 110vh;
         width: 100%
     }
+
 }
 
 /* Scroll to Top Button */
