@@ -64,6 +64,11 @@ html {
     height: auto;
 }
 
+.calendar {
+    width: 75%;
+    margin: 0 auto;
+}
+
 .imageBarLeft, .imageBarRight {
     width: 20%;
 }
