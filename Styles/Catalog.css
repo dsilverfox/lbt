@@ -88,7 +88,19 @@ figure {
     height: 25%;
 }
 
+footer {
+    margin-top: 1rem;
+    font-size: .5rem;
+}
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer img {
+    width: 10%;
+}
 @media screen and (min-width: 300px) and (max-width: 400px) {
 
     .imageBarLeft,
