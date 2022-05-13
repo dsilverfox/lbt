@@ -138,7 +138,6 @@ footer img {
 
 @media screen and (min-height:300px) {
     .main {
-        height: 110vh;
         width: 100%
     }
 
