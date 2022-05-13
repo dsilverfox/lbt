@@ -53,6 +53,7 @@ html {
     background-color: black;
     height: 100vh;
     width: 100%;
+    margin: auto;
 }
 
 .underconstruction {
@@ -73,11 +74,17 @@ p {
 }
 .image {
     height: 100%;
-    width: 95%;
+    width: 100%;
     margin-top: 3%;
     margin-bottom: 3%;
     margin-left: auto;
     margin-right: auto;
+}
+
+figure {
+    margin: 1rem;
+    width: 25%;
+    height: 25%;
 }
 
 

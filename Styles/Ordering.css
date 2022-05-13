@@ -71,8 +71,7 @@ h1 {
 }
 .sizes {
     margin: 1rem;
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
 }
 
 .sizes p {

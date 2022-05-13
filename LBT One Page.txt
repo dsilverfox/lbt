@@ -1,0 +1,21 @@
+FormSpree
+www.formspree.io
+Username: LonnieBuildsThings@gmail.com
+Password: Lonnie1104!
+
+You will need to log in and upgrade your account if/when you begin receiving 50 or more requests via the form.
+
+DreamHost:
+www.dreamhost.com
+Username: LonnieBuildsThings@gmail.com
+Password: Lonnie1104
+
+
+I have access to this now via the FTP user. I won't need to log into the main account again unless there's a problem.
+
+GoDaddy:
+www.godaddy.com
+Username: LonnieBuildsThings@gmail.com
+Password: Lonnie1104
+
+Support PIN: 1104
